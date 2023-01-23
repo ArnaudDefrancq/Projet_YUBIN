@@ -89,7 +89,7 @@
     height: 60%; 
 }
 
-.signin {
+.signin-signup {
     margin-top: 15%;
     font-size: 1.2em;
     transition: 0.3s;
@@ -100,3 +100,6 @@
         }
 }
 
+.signin {
+    flex-direction: row-reverse;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import FormSigIn from '../components/FormSigIn';
 
 const Signin = () => {
     return (
-        <div>
-            <h1>Connexion</h1>
+        <div className='main-connect'>
+            <FormSigIn />
         </div>
     );
 };

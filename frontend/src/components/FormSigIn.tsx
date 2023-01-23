@@ -1,21 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
+import {  faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 import {NavLink} from 'react-router-dom';
 
-const FormContent = () => {
-
+const FormSigIn = () => {
     return (
-        <div className='auth-container'>
+        <div className='auth-container signin'>
             <div className="container-flex">
-                <h1>Inscription </h1>
+                <h1>Connection</h1>
 
                 <form className="form-container">
 
-                    <div className="input-container-connect">
-                        <FontAwesomeIcon icon={faUser}  className="icon-connect"/>
-                        <input type="text" placeholder='Votre pseudo' className='form-container__input' required/>
-                    </div>
 
                     <div className="input-container-connect">
                         <FontAwesomeIcon icon={faEnvelope}  className="icon-connect"/>
@@ -28,14 +23,14 @@ const FormContent = () => {
                     </div>
 
 
-                    <button type="submit" value="Inscription" className='form-container__button'>Inscription</button>
+                    <button type="submit" value="Connection" className='form-container__button'>Connection</button>
                 </form>
                 
             </div>
             <div className='image-container'>
-                <img src="./images/image_signup.webp" alt="Bureau d'ordinateur" className='image-connect'/>
-                <NavLink to="/connexion">
-                    <p className='signin-signup'>Déja un compte ? Connectez-vous !</p>
+                <img src="./images/image_signin.webp" alt="Bureau d'ordinateur" className='image-connect'/>
+                <NavLink to="/">
+                    <p className='signin-signup'>Vous n'avez pas de compte ? Inscrivez-vous !</p>
                 </NavLink>
             </div>
             
@@ -43,4 +38,4 @@ const FormContent = () => {
     );
 };
 
-export default FormContent;
+export default FormSigIn;
