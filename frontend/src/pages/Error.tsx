@@ -1,9 +1,11 @@
 import React from 'react';
+import MessageError from '../components/MessageError';
+
 
 const Error = () => {
     return (
         <div>
-            <h1>Error 404</h1>
+            <MessageError />
         </div>
     );
 };
