@@ -1,0 +1,102 @@
+.main-connect {
+    background-color: $color-two;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    display: flex;
+    height: 70%;
+    width: 60%;
+    background: $white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 $black;
+}
+
+.container-flex {
+    background: $white;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    & h1 {
+        text-align: center;
+        font-family: 'font-01';
+        font-size: 3em;
+        margin-top: 10%;
+    }
+}
+
+.form-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+        &__input {
+            font-family: 'font-02';
+            font-size: 1.2em;
+            border: none;
+            
+            padding: 6px 20px;
+        }
+
+        &__input:focus {
+            outline: none;
+        }
+
+        &__button {
+            cursor: pointer;
+            width: 50%;
+            padding: 15px;
+            background: $color-three;
+            font-family: 'font-02';
+            font-size: 1.3em;
+            color: $white;
+            border: none;
+            border-radius: 15px;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
+        }
+
+        &__button:hover {
+            background-color: $color-one;
+            color: $color-three;
+        }
+}
+
+.input-container-connect {
+    border-bottom: 2px solid $color-three;
+    padding: 6px 10px;
+}
+
+.icon-connect {
+    font-size: 1.2em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.image-connect {
+    height: 60%; 
+}
+
+.signin {
+    margin-top: 15%;
+    font-size: 1.2em;
+    transition: 0.3s;
+
+        &:hover {
+            color: $color-five;
+            transform: scale(1.1);
+        }
+}
+

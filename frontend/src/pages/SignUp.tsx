@@ -1,9 +1,10 @@
 import React from 'react';
+import FormContent from '../components/FormContent';
 
 const SignUp = () => {
     return (
-        <div>
-            <h1>Inscription</h1>
+        <div className='main-connect'>
+            <FormContent />
         </div>
     );
 };
