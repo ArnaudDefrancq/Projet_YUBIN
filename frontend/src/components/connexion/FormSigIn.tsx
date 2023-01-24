@@ -7,7 +7,6 @@ import axios from 'axios';
 const FormSigIn = () => {
 
     const errorDisplay = document.getElementById('error');
-    console.log(errorDisplay);
     
 
     const [email, setEmail] = useState<string>('');

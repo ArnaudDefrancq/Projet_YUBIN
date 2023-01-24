@@ -1,10 +1,13 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const NewsFeed = () => {
     return (
-        <div>
-            <h1>Actualitées</h1>
-        </div>
+        <>
+            <header>
+                <Navigation />
+            </header>
+        </>
     );
 };
 
