@@ -71,10 +71,19 @@
 .input-container-connect {
     border-bottom: 2px solid $color-three;
     padding: 6px 10px;
+    display: flex;
+    align-items: center;
 }
 
 .icon-connect {
     font-size: 1.2em;
+}
+
+.error-msg {
+    color: $color-five;
+    padding-top: 10px;
+    font-size: 1em;
+    font-family: 'font-02';
 }
 
 .image-container {
