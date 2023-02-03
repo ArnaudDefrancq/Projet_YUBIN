@@ -2,6 +2,7 @@ const express = require("express");
 const models = require("./models");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
+const cors = require("cors");
 
 // Import des Route
 const authRouter = require("./routes/auth.routes.js");
@@ -11,13 +12,15 @@ const userRouter = require("./routes/user.routes");
 
 const app = express();
 
+// app.use(cors());
+
 // permet de lire les JSON et COOKIE
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
 // synchronise les tables
-models.sequelize.sync({ alter: true });
+// models.sequelize.sync({ alter: true });
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");

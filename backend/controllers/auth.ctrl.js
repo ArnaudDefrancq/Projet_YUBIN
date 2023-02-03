@@ -50,7 +50,7 @@ exports.signIn = (req, res) => {
   const { user_email, user_password } = req.body;
 
   if (user_email == "" || user_password == "") {
-    res.status(500).json({ error: "Vueillez remplire tout les champs !" });
+    res.status(500).json({ error: "Veuillez remplire tout les champs !" });
   }
 
   userModel
