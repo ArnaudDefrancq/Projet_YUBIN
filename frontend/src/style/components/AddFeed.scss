@@ -1,0 +1,75 @@
+.addFeed-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.addFeed-form-container {
+  border-radius: 15px;
+  width: 40%;
+  padding: 2% 1.5%;
+  background: $white;
+  border: 1px solid $color-one;
+
+  .addFeed-top-input {
+    display: flex;
+    align-items: center;
+
+    .avatar {
+      height: 80px;
+      border: 1px solid black;
+      border-radius: 50%;
+    }
+
+    .addFeed-input {
+      height: 50px;
+      width: 80%;
+      margin-left: 3%;
+      padding-left: 3%;
+      font-size: 1.2em;
+      font-family: "font-01";
+      border-radius: 15px;
+      border: 1px solid $color-three;
+    }
+
+    .addFeed-input:focus {
+      outline: none;
+    }
+  }
+
+  .addFeed-input-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 5% 0 0;
+
+    .addFeed-file {
+      display: none;
+    }
+    .addFeed-file-icon {
+      font-size: 1.5em;
+      cursor: pointer;
+      margin-right: 30px;
+      transition: 0.3s ease;
+    }
+
+    .addFeed-file-icon:hover {
+      color: $color-five;
+    }
+
+    .addFeed-submit {
+      padding: 8px 25px;
+      background-color: $color-two;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      font-size: 1.2em;
+      transition: 0.3s ease;
+    }
+    .addFeed-submit:hover {
+      background: $white;
+      border: 1px solid $color-three;
+    }
+  }
+}

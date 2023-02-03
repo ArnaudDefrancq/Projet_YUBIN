@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import AddFeed from '../components/newFeed/AddFeed';
 
 const NewsFeed = () => {
     return (
@@ -7,6 +8,9 @@ const NewsFeed = () => {
             <header>
                 <Navigation />
             </header>
+            <main>
+                <AddFeed />
+            </main>
         </>
     );
 };

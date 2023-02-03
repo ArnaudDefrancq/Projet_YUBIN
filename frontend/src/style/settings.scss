@@ -1,32 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 //color
-$color-one: #DAD7CD;
-$color-two: #ACC1AE;
+$color-one: #dad7cd;
+$color-two: #acc1ae;
 $color-three: #495457;
-$color-four: #F5DCCF;
-$color-five: #EBA9AA;
+$color-four: #f5dccf;
+$color-five: #eba9aa;
 $black: black;
 $white: white;
 
 // Font
 @font-face {
-    font-family: "font-01";
-    src: url("../assets/font/Jost-Regular.ttf");
+  font-family: "font-01";
+  src: url("../assets/font/Jost-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'font-02';
-    src: url("../assets/font/NotoSans-Regular.ttf");
+  font-family: "font-02";
+  src: url("../assets/font/NotoSans-Regular.ttf");
 }
 
-
 a {
-    color: $black;
-    text-decoration: none;
-    list-style: none;
+  color: $black;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  border-bottom: 2px solid $color-three;
+}
+
+body {
+  background: #f0f2f5;
 }
