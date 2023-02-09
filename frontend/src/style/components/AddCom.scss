@@ -1,0 +1,38 @@
+.add-com {
+  margin-top: 10%;
+  align-items: center;
+  display: flex;
+  &-image {
+    width: 8%;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  &-form {
+    margin-left: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &-input {
+    padding: 13px 8px;
+    width: 80%;
+    border: 1px solid $color-three;
+    border-radius: 15px;
+    font-family: "font-01";
+    font-size: 0.9em;
+  }
+  &-input:focus {
+    outline: none;
+  }
+  &-submit {
+    cursor: pointer;
+    margin-left: 5%;
+    font-size: 1.3em;
+    border: none;
+    background: none;
+    transition: 0.3s ease;
+  }
+  &-submit:hover {
+    color: $color-two;
+  }
+}
