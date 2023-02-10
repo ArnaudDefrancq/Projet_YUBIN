@@ -1,0 +1,26 @@
+.feed-com {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  &-image {
+    width: 8%;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 6%;
+  }
+  &-content {
+    background: #f0f2f5;
+    padding: 3%;
+    margin-left: 3%;
+    border-radius: 15px;
+    font-family: "font-01";
+    font-size: 1em;
+  }
+}
+
+.com-date {
+  font-size: 0.7em;
+  text-align: end;
+  margin-right: 3%;
+  margin-top: 3%;
+}

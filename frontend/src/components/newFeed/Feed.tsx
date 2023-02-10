@@ -1,5 +1,6 @@
 import React from "react";
 import AddCom from "./AddCom";
+import FeedCom from "./FeedCom";
 
 const Feed = () => {
   return (
@@ -23,6 +24,7 @@ const Feed = () => {
           <img src="./images/Logo-02.png" alt="" className="feed-image" />
         </div>
         <AddCom />
+        <FeedCom />
       </div>
     </div>
   );
